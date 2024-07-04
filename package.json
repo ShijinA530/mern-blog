@@ -1,0 +1,31 @@
+{
+  "name": "mern-blog",
+  "version": "1.0.0",
+  "description": "",
+  "main": "server.js",
+  "scripts": {
+    "server": "nodemon server",
+    "client": "npm run dev --prefix client",
+    "dev": "concurrently \"npm run server\" \"npm run client\""
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ShijinA530/mern-blog.git"
+  },
+  "keywords": [],
+  "author": "Me",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ShijinA530/mern-blog/issues"
+  },
+  "homepage": "https://github.com/ShijinA530/mern-blog#readme",
+  "dependencies": {
+    "body-parser": "^1.20.2",
+    "express": "^4.19.2",
+    "mongodb": "^6.8.0"
+  },
+  "devDependencies": {
+    "concurrently": "^8.2.2",
+    "nodemon": "^3.1.4"
+  }
+}
